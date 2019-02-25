@@ -1,0 +1,10 @@
+cabal-version: 2.4
+
+name: megaparsec-css
+version: 1.0.0.0
+
+library
+    hs-source-dirs: library
+    exposed-modules: Text.Megaparsec.CSS
+    other-modules: Text.Megaparsec.CSS.Spec
+    build-depends: base, megaparsec
